@@ -98,6 +98,13 @@ input, button {
 	text-transform: uppercase;
 }
 
+#delete {
+	margin-left: 47.5%;
+	margin-top: 3%;
+	text-transform: uppercase;
+}
+
+
 td {
 	color: #fff;
 }
