@@ -155,6 +155,10 @@ input, button {
 
 }
 
+#update {
+	margin-left: -1%;
+}
+
 
 td {
 	color: #fff;
