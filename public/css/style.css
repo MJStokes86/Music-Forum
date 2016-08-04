@@ -89,6 +89,20 @@ body {
 .title, .topic-title {
 	color: white;
 	text-align: center;
+/* 	text-transform: uppercase;
+ */	font-family: Fira Sans, sans-serif;
+}
+
+td a {
+	color: #fff;
+	font-family: Fira Sans, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+td a:hover {
+	color: #fff;
+
 }
 
 .topics tr th{
@@ -138,7 +152,7 @@ input, button {
 	text-transform: uppercase;
 	font-family: Fira Sans, sans-serif;
 	font-size: 20px;
-	
+
 }
 
 
