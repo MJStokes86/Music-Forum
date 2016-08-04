@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:900);
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,500);
 
@@ -82,6 +82,7 @@ body {
 .table {
 	margin-top: 10%;
 	background-color: #000;
+	background: rgba(0,0,0,0.7);
 
 }
 
@@ -113,23 +114,31 @@ body {
 }
 
 input, button {
-	border: solid #fff 2px ;
-	padding: 3px;
+	border: solid #fff 1px ;
+	padding: 10px;
 	color: #fff;
-	text-shadow: 2px 2px #000;
+	/* text-shadow: 2px 2px #000; */
 	background:none;
 
 }
 
 #cancel {
-	margin-left: 47.5%;
+	margin-left: 46.5%;
 	text-transform: uppercase;
 }
 
 #delete {
-	margin-left: 47.5%;
+	margin-left: 46.5%;
 	margin-top: 3%;
 	text-transform: uppercase;
+}
+
+#home {
+	padding: 20px 50px;
+	text-transform: uppercase;
+	font-family: Fira Sans, sans-serif;
+	font-size: 20px;
+	
 }
 
 
@@ -139,10 +148,19 @@ td {
 
 .input-wrap p {
 	color: #fff;
+	font-family: Fira Sans, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .form-control {
 	text-shadow: none;
+	background-color: #000;
+	background: rgba(0,0,0,0.7) !important;
+	border: solid #fff 1px !important;
+	color:  #fff !important;
+	border-radius: 0 !important;
 }
 
 .new-comment, .edit-comment {
