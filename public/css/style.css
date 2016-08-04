@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:900);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,500);
+
+
+
 * {
 	margin:0;
 	padding:0;
@@ -5,11 +11,18 @@
 
 
 body {
-	background-color: #212121;
+
+	background-image: linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)), url('/img/recordplayer.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background: linear-gradient();
+	
 }
 
-.img-bg {
-	height: 600px;
+/* .img-bg {
+	height: 1000px;
 	width: auto;
 	background-attachment: fixed;
 	background-position: center;
@@ -17,12 +30,12 @@ body {
 	background-repeat: no-repeat;
 }
 
-/* #img1 {
-	background-image: url('http://i.imgur.com/eCLPu6S.jpg');
+#img1 {
+	background-image: url('/img/recordplayer.jpg');
 	
-}
- */
-#img1 h1 {
+} */
+
+.content h1 {
 	position:absolute;
 	top: 30%;
 	left:50%;
@@ -30,25 +43,40 @@ body {
 	transform: translate(-50%, 50%);
 	color: #fff;
 	text-transform: uppercase;
-	text-shadow: 2px 2px #000;
+	/* text-shadow: 2px 2px #000; */
+	font-family: 'Poiret One', cursive;
+	font-size: 50px;
 }
 
-#img1 button {
+.content button {
 	position:absolute;
 	top: 50%;
 	left:50%;
 	margin-right: -50%;
 	transform: translate(-50%, 50%);
 	background: none;
-	border: solid #fff 6px ;
-	padding: 10px;
+	border: solid #fff 1px ;
+	padding: 20px;
 	color: #fff;
 	font-size: 20px;
-	text-shadow: 2px 2px #000;
+	font-family: Fira Sans, sans-serif;
+	text-transform: uppercase;	
+	text-shadow: none;
+	font-weight: bold;
 
 
 
 
+}
+
+
+
+.navbar-brand {
+	color: #fff;
+	font-family: 'Fira Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 15px;
+	
 }
 
 .table {
